@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    text-align:center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    background-image: url(https://www.toptal.com/designers/subtlepatterns/patterns/double-bubble-dark.png)
+}
+.wholebackground{
+    background-image: url(https://www.toptal.com/designers/subtlepatterns/patterns/double-bubble-outline.png)
+}
+.navbar{
+    width:100%;
+    height: 15vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width:160px;
+    cursor: pointer;
+}
+nav{
+    flex: 1;
+    padding-left: 60px;
+}
+nav ul li{
+    display: inline-block;
+    list-style:none;
+    margin: 0px 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #AB8C6C;
+}
+
+.content{
+    font-size: 20px;
+    font-family: fantasy;
+    display: block;
+    margin: auto;
+    text-align: center;
+    color: #755e45;
+}
+.menu{
+    width: 900px;
+    cursor: pointer;
+}
+.footer{
+    font-size: small;
+    font-family: monospace;
+    color: #AB8C6C;
+}
